@@ -96,7 +96,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <TurnOffAssemblyGeneration />
       <AdditionalDependencies>$(SolutionDir)lib\static\gcommlibd.lib;$(SolutionDir)lib\importlibs\GALGSBL_LIB.LIB;$(OutDir)dfcapi.lib;$(OutDir)gcspsrv.lib;galgsbl_lib.lib;galme_lib.lib;wgsbtr.lib;comctl32.lib;odbc32.lib;odbccp32.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\importlibs;$(SolutionDir)lib\static;$(SolutionDir)lib\wg32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
